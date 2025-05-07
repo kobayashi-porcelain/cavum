@@ -1,0 +1,18 @@
+# Include runtime dependencies
+-r requirements-use.txt
+
+# Development tools
+pytest==8.3.5
+pylint==3.2.7
+isort==5.13.2
+astroid==3.2.4
+mccabe==0.7.0
+tomli==2.2.1
+tomlkit==0.13.2
+packaging==25.0
+platformdirs==4.3.6
+pluggy==1.5.0
+iniconfig==2.1.0
+typing_extensions==4.13.2
+exceptiongroup==1.2.2
+dill==0.4.0
